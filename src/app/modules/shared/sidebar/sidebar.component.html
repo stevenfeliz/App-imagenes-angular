@@ -1,0 +1,9 @@
+<div class="sidebar">
+    <h3 class="sidebar__h3">App Imagenes</h3>
+    <hr />
+    <p>Historial de busqueda</p>
+    <a 
+      *ngFor="let item of historial"
+     class="sidebar__button">{{item | titlecase}}</a>
+    
+  </div>

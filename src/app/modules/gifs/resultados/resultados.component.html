@@ -1,0 +1,10 @@
+<hr />
+<div class="card__container">
+  
+  <div class="card" *ngFor="let gif of resultados">
+    <img class="card__imagen" src="{{gif.images.original.url}}" alt="">
+    <h3 class="card__title"> {{gif.title}} </h3>
+    
+  
+  </div>
+</div>

@@ -1,0 +1,16 @@
+.card__container{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 10px;
+    
+    
+}
+.card{
+    height: 100%;
+    background-color: rgb(216, 216, 216);
+}
+.card__imagen{
+    width: 100%;
+    min-height: 90%;
+
+}
