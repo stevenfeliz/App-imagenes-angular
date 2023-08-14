@@ -1,8 +1,30 @@
-.layout{
-    display: grid;
-    grid-template-columns: 400px 1fr;
-    height: 100vh;
-    gap: 10px;
-   
-} 
- 
+@import './bemit/02-tools/mixins.scss';
+
+
+@include lg{
+    .layout{
+        display: grid;
+        grid-template-columns: 30rem 1fr;
+        gap: 10px;
+        overflow: hidden;
+    } 
+}
+
+@include md{
+    .layout{
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        gap: 10px;
+        overflow: hidden;
+    } 
+}
+
+
+@include sm{
+    .layout{
+        display: grid;
+        grid-template-columns: 11rem 1fr;
+        gap: 10px;
+        overflow: hidden;
+    } 
+}

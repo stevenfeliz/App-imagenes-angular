@@ -1,29 +1,110 @@
-.contenedor__h5{
-    font-size: 25px;
-    font-family: bold;
+@import '../../../bemit/02-tools/mixins.scss';
 
- }
- .contenedor__input{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 50%;
-    padding:10px;
-    border:0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
- }
-
- .contenedor__button{
-   cursor: pointer;
+@include lg{
+   .buscador{
+      width: 100%;
+   }
+   .buscador__h5{
+      font-size: 25px;
+      font-family: bold;
   
-   background: rgb(197, 228, 193);
-   color: black;
-   text-align: center;
-   width: 100px;
-   font-size: 16px;
-   padding: 10px 29px;
-   margin-left: 10px;
-   -webkit-border-radius: 13px;
-   -moz-border-radius: 13px;
-   -ms-border-radius: 13px;
-   -o-border-radius: 13px;
- }
+   }
+   .buscador__input{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 50%;
+      padding:10px;
+      border:0;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+   }
+  
+   .buscador__button{
+     cursor: pointer;
+     background: lightblue;
+     color: white;
+     text-align: center;
+     width: 10rem;
+     font-size: 16px;
+     height: 4rem;
+     margin-left: 10px;
+     -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+     -ms-border-radius: 13px;
+     -o-border-radius: 13px;
+   }
+
+}
+
+@include md{
+   .buscador{
+      width: 70%;
+   }
+   .buscador__h5{
+      font-size: 25px;
+      font-family: bold;
+  
+   }
+   .buscador__input{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 50%;
+      padding:10px;
+      border:0;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+   }
+  
+   .buscador__button{
+     cursor: pointer;
+     background: lightblue;
+     color: white;
+     text-align: center;
+     width: 10rem;
+     font-size: 16px;
+     height: 4rem;
+     margin-left: 10px;
+     -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+     -ms-border-radius: 13px;
+     -o-border-radius: 13px;
+   }
+
+}
+
+@include sm{
+   .buscador{
+      width: 80%;
+      min-width: 25rem;
+   }
+   .buscador__h5{
+      font-size: 20px;
+      font-family: bold;
+  
+   }
+   .buscador__input{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 50%;
+      padding:10px;
+      border:0;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+   }
+  
+   .buscador__button{
+     cursor: pointer;
+     background: lightblue;
+     color: white;
+     text-align: center;
+     width: 7rem;
+     font-size: 12px;
+      height: 3rem;
+     margin-left: 10px;
+     -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+     -ms-border-radius: 13px;
+     -o-border-radius: 13px;
+   }
+
+}
+
+
+

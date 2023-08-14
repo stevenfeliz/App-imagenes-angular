@@ -1,16 +1,75 @@
-.card__container{
-    display: grid;
-    grid-template-columns: repeat(4,300px);
-    gap: 10px;
+@import '../../../bemit/02-tools/mixins.scss';
+
+
+@include lg{
+
+    .card__container{
+        width: 95%;
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 1.5rem;
+        
+        
+    }
+    .card{
+        height: 20rem;
+        background-color: rgb(216, 216, 216);
+    }
+    .card__imagen{
+        height: 100%;
+        width: 100%;
+        
     
+    }
+
+}
+
+@include md{
+
+    .card__container{
+        width: 95%;
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+        
+        
+    }
+    .card{
+        height: 20rem;
+        background-color: rgb(216, 216, 216);
+    }
+    .card__imagen{
+        height: 100%;
+        width: 100%;
+        
     
+    }
+
 }
-.card{
-    height: 100%;
-    background-color: rgb(216, 216, 216);
-}
-.card__imagen{
-    width: 100%;
-    min-height: 90%;
+
+@include sm{
+
+    .card__container{
+        width: 95%;
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+        
+        
+    }
+    .card{
+        width: 10rem;
+        height: 10rem;
+        background-color: rgb(216, 216, 216);
+    }
+    .card__imagen{
+        height: 100%;
+        width: 100%;
+        
+    
+    }
 
 }
