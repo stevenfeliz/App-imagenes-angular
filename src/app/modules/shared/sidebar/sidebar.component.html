@@ -3,9 +3,18 @@
   <h3 class="sidebar__h3">App Imagenes</h3>
   <hr />
   <p class="sidebar__parafo">Historial de busqueda</p>
-  <a 
-    *ngFor="let item of historial"
-   class="sidebar__button">{{item | titlecase}}</a>
+  <div *ngFor="let item of historial" class="sidebar__historialContainer">
+    <a  class="sidebar__button"
+        (click)="selecion(item)">
+        
+        {{item | titlecase}}
+        
+     </a>
+     <button id="{{item}}" (click)="delete($event)" class="sidebar__containerHbtn">x</button>
+
+  </div>
+   
+    
   
 
 </div>

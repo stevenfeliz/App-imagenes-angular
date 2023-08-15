@@ -11,6 +11,15 @@
     padding-right: 11px;
     min-height: 100vh;
   }
+
+  .sidebar__historialContainer{
+    display: flex;
+  }
+  .sidebar__containerHbtn{
+    width: 2rem;
+    background-color: white;
+    color: black;
+  }
   .sidebar__h3 {
     font-size: 30px;
     font-weight: bold;
