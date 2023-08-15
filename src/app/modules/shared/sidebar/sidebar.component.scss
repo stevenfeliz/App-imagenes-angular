@@ -60,13 +60,22 @@
       font-size: 2rem;
       font-weight: bold;
     }
+    .sidebar__historialContainer{
+      display: flex;
+    }
+    .sidebar__containerHbtn{
+      width: 2rem;
+      background-color: white;
+      color: black;
+    }
+
     .sidebar__button {
       cursor: pointer;
       margin: 0 auto;
       background: white;
       color: black;
       text-align: center;
-      width: 180px;
+      width: 10rem;
       font-size: 16px;
       padding: 5px 20px;
       -webkit-border-radius: 13px;
@@ -94,13 +103,22 @@
       font-size: 1.2rem;
       font-weight: bold;
     }
+
+    .sidebar__historialContainer{
+      display: flex;
+    }
+    .sidebar__containerHbtn{
+      width: 1.2rem;
+      background-color: white;
+      color: black;
+    }
     .sidebar__button {
       cursor: pointer;
       margin: 0 auto;
       background: white;
       color: black;
       text-align: center;
-      width: 8rem;
+      width: 6rem;
       font-size: 10px;
       padding: 3px 10px;
       -webkit-border-radius: 13px;
